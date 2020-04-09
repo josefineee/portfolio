@@ -1,13 +1,4 @@
-@charset "UTF-8";
-p
-{
-  font-family: cursive;
-  font-size: large;
-  color: #0000ff;
-  background-color: #ffff00;
-}
-.title
-{
+.nav {
   font-family: "Times New Roman",Georgia,serif;
   font-size: 40px;
   text-align: center;
@@ -15,23 +6,23 @@ p
   color: #ff0000;
   background-color: #00ffff;
 }
-.headline
-{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+
+.headline {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.subdiv
-{
-    padding: 5%;
-}
-a
-{
-    color:  #ff0000;
+.subdiv {
+  padding: 5%;
 }
 
-a:-webkit-any-link{
-    text-decoration:none !important;
-    color: none !important;
-    }
+a {
+  color: #ff0000;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+  color: none !important;
+}
+/*# sourceMappingURL=style.css.map */
