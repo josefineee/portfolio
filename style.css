@@ -3,13 +3,14 @@
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
-  color: #ff0000;
-  background-color: #00ffff;
+  margin-top: 5%;
+  color: darkgrey;
+  background-color: rgb(176, 235, 215);
 }
 
-.headline {
-  text-align: center;
-  font-size: 50px;
+.return {
+  text-align: right;
+  margin-top: 10px;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -17,12 +18,18 @@
   padding: 5%;
 }
 
-a {
-  color: #ff0000;
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: large;
 }
 
 a:-webkit-any-link {
   text-decoration: none !important;
-  color: none !important;
+  color: darkgrey !important;
+}
+
+a:hover {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
