@@ -1,17 +1,23 @@
 .nav {
   font-family: "Times New Roman",Georgia,serif;
   font-size: 40px;
-  text-align: center;
+  white-space: pre;
   text-decoration: underline;
   margin-top: 5%;
   color: darkgrey;
-  background-color: rgb(176, 235, 215);
+  background-color: lightgoldenrodyellow;
+  padding: 5%;
 }
 
 .return {
-  text-align: right;
-  margin-top: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman",Georgia,serif;
+  font-size: 20px;
+  white-space: pre;
+  text-decoration: underline;
+  margin-top: 5%;
+  color: darkgrey;
+  background-color: lightgoldenrodyellow;
+  padding: 5%;
 }
 
 .subdiv {
