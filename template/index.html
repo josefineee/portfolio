@@ -8,7 +8,7 @@
     </head>
     <body>
         <nav class="container-fluid navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index">Josefine Ericsson</a>
+            <a class="navbar-brand" href="{{ url_for('start') }}">Josefine Ericsson</a>
         </nav>
         
         <div>
@@ -18,17 +18,17 @@
         <div id='side-nav' class="container-fluid text-justify">
             <div class='col col-lg-1'>
                 <div class="dropright row">
-                    <a class="dropdown" href="about" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="dropdown" href="{{url_for('about')}}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       about
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="about">Merits</a>
-                      <a class="dropdown-item" href="about">Personality</a>
-                      <a class="dropdown-item" href="about">Values</a>
+                      <a class="dropdown-item" href="{{url_for('about')}}">Merits</a>
+                      <a class="dropdown-item" href="{{url_for('about')}}">Personality</a>
+                      <a class="dropdown-item" href="{{url_for('about')}}">Values</a>
                     </div>
                 </div>
-                <a class='row' href='projects' >projects<br></a>
-                <a class='row' href='contact' >contact<br></a>
+                <a class='row' href="{{url_for('projects')}}" >projects<br></a>
+                <a class='row' href="{{url_for('contact')}}" >contact<br></a>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
